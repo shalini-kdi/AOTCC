@@ -1,20 +1,19 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# AI-Driven Predictive Maintenance Solution
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+## Overview
+This project is part of a hackathon where we're developing a predictive maintenance solution utilizing various AI agents. The goal is to detect anomalies, predict equipment failures, and recommend maintenance actions to reduce operational costs and improve efficiency.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## Repository Structure
+- `docs/`: Would contain all documentation related to the project.
+- `src/`: Contains the source code for all agents and common utilities.
+- `tests/`:Would contain unit and integration tests for the solution.
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## Getting Started
+1. Clone the repository.
+2. Set up the virtual environment and install dependencies.
+3. Run the agents as needed using the scripts provided in the `src/` folder.
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## Usage
+To train the anomaly detection model, navigate to the `src/anomaly_detection_agent/` directory and run:
+```bash
+python train_anomaly_model.py
